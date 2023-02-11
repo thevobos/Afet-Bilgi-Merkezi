@@ -1,2 +1,2 @@
 # Afet-Bilgi-Merkezi
-Afet bölgesinde yardıma ihtiyacı olan vatandaşlara yönelik verilen yardımların listelendiği ve başvuruları için gerekli bilgilendirmenin yapıldığı merkezi bilgi platformudur. 
+Afet bölgesinde yardıma ihtiyacı olan vatandaşlara yönelik verilen yardımların listelendiği ve başvuruları için gerekli bilgilendirmenin yapıldığı merkezi bilgi platformudur. Bu platformda Kurumlar, Şahıslar ve Derneklerin vermiş olduğu yardımlar listelenmektedir. Mobil ve Bilgisayarlardan erişilebilecek bu site ile bilgi karmaşasının önlenmesi sağlanarak doğru bilginin merkezi olması hedeflenmektedir.
