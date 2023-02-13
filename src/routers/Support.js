@@ -15,13 +15,19 @@ const Support = (props) => {
     let { link } = useParams();
 
 
+
     React.useEffect(()=>{
+
 
         fetch("https://beta.vobo.cloud/api/v1/read/multiple/one/slug/2958-63475-8145-51347/182-6240-8690-4012/4543-4549-4752-7669/"+link+"?language=tr")
             .then(res => res.json())
             .then(res => {
 
                 setDetails(res.data);
+
+
+                window.top.document.title = "Afet Bilgi Merkezi | " + res?.data?.title;
+
 
             }).catch(err => console.log(err))
 

@@ -13,7 +13,7 @@
 
 }
 
-* { outline: none; clear: inherit; font-size: 11px; margin: 0px; border: none; padding: 0; text-decoration: none; list-style-type: none; font-family: 'Barlow', sans-serif;  color: black; }
+* { outline: none; clear: inherit; margin: 0px; border: none; padding: 0; text-decoration: none; list-style-type: none; font-family: 'Barlow', sans-serif;  color: black; }
 
 html,body, #root { width: 100%; height: 100%; background: #FFFFFF; }
 

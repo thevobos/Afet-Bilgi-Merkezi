@@ -5,7 +5,7 @@ import {isMobile} from 'react-device-detect';
 const Content = (props) => {
 
     return (<>
-        <div style={{ width: (isMobile ? "100%" : 960), margin: "0 auto",...props?.style}}>
+        <div style={{ width: (isMobile ? "100%" : 1200), margin: "0 auto",...props?.style}}>
             {props?.children}
         </div>
     </>)

@@ -12,6 +12,7 @@ const LinkCardIcon = (props) => {
 
     return (<>
         <NavLink
+            onClick={props?.onClick}
             to={props?.to}>
             <div style={{display:"flex", borderStyle:"solid", borderWidth:1, flexDirection: (isMobile ? "column" : "row"), borderColor:"rgba(154,154,154,0.21)", borderRadius:10, marginBottom:15, padding:"5px 10px",  boxShadow: (props.shadown ? "rgb(0 0 0 / 13%) 0px 0px 18px"  : "")}}>
                 <div style={{display:"flex", alignItems:"center", justifyContent:"center",  width:(props.bigSize ? 85 : 50), height: (props.bigSize ? 60 : 40) }}>

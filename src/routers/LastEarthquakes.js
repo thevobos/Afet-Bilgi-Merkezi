@@ -16,6 +16,9 @@ const LastEarthquakes = (props) => {
 
     React.useEffect(()=>{
 
+        window.top.document.title = "Afet Bilgi Merkezi | Son Depremler";
+
+
         EarthquakeTr()
             .then(response => {
                 if(response?.result){

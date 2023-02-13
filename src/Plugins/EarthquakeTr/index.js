@@ -8,7 +8,7 @@ var earthquakeArray = []
 
 const EarthquakeTr = (country) => {
 
-    url = 'http://www.koeri.boun.edu.tr/scripts/lst' + getRandomInt(10, 3) + '.asp'
+    url = "https://api.tourismerp.store/tests"
 
 
     return fetch(url)

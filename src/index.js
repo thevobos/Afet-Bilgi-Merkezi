@@ -5,7 +5,6 @@ import reportWebVitals from "./reportWebVitals";
 import HelpCenter from "./layouts/HelpCenter";
 import "./assets/App.css"
 import Dashboard from "./routers/Dashboard";
-import Page from "./routers/Page";
 import Support from "./routers/Support";
 import {ConfigProvider} from "antd";
 import LastEarthquakes from "./routers/LastEarthquakes";
@@ -43,10 +42,6 @@ const router = createBrowserRouter([
             {
                 path: "yardim/:link",
                 element: <Support/>,
-            },
-            {
-                path: "sayfa/:link",
-                element: <Page/>,
             }
         ]
     },
@@ -58,9 +53,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <ConfigProvider
             theme={{
                 token: {
-                    colorPrimaryBg: '#FFFFFF',
-                    colorPrimary: '#56c145',
-                    colorLink: '#2f322f',
+
+                    colorPrimary: '#56c145'
                 }
             }}>
             <RouterProvider router={router} />

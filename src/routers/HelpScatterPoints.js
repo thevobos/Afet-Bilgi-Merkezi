@@ -12,6 +12,7 @@ const HelpScatterPoints = (props) => {
 
     React.useEffect(()=>{
 
+        window.top.document.title = "Afet Bilgi Merkezi | Yardım Noktaları";
 
 
         fetch("https://beta.vobo.cloud/api/v1/get/all/categories/182-6240-8690-4012/4543-4549-4752-7669?language=tr")
